@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box-1 {
+    padding-bottom: 5px;
+}
+
+.sections {
+    border: 1px solid blue;
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box-2 {
+    border: 3px solid green;
+}
+
+.box-2 img {
+    border: 3px solid green;
+    float: right;
+}
+
+
+.clear-fix {
+    overflow: auto;
+
+}
+
+/* new */
+#main-container {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    background-color: aqua;
+    height: 100vh;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    height: 100vh;
+    background-color: grey;
+}

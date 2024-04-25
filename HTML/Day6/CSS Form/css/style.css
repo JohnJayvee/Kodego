@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* -webkit-tap-highlight-color: transparent; */
+}
+
+.container {
+    background-color: aqua;
+    height: 100vh;
+}
+
+#sample-form {
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+#sample-form .form-group {
+    padding-bottom: 15px;
+}
+
+#sample-form label {
+    display: block;
+}
+
+#sample-form input[type="text"],
+input[type="email"] #sample-form textarea {
+    padding: 2px;
+    width: 60%;
+}
+
+.btn {
+    background-color: rgb(183, 211, 236);
+    color: blue;
+    padding: 5px 10px;
+    border: none;
+}

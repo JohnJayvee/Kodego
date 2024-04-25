@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    border: 10px solid blue;
+    height: 800vh;
+    width: 80vh;
+    margin: 100px;
+    position: relative;
+
+}
+
+.box {
+    border: 10px solid green;
+    margin-top: 200px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.sticky-box {
+    border: 10px solid grey;
+    position: sticky;
+    top: 0px;
+}
+
+.fixed-box {
+    position: fixed;
+    border: 10px solid purple;
+    bottom: 100px;
+}

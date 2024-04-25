@@ -1,0 +1,47 @@
+#main-container {
+    background-color: aqua;
+}
+
+.color-red {
+    color: red;
+
+
+    font-weight: 700;
+}
+
+#main-container p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#sample>p+div>p {
+    background-color: red;
+}
+
+#links li:nth-child(1) {
+    background-color: red;
+}
+
+#links li:nth-child(2) {
+    background-color: blue;
+}
+
+#links li:nth-child(3) {
+    background-color: pink;
+}
+
+#links2 {
+    padding: 20px 0 0 0
+}
+
+#links2 li:nth-child(even) {
+    background-color: green;
+}
+
+#links2 li:nth-child(odd) {
+    background-color: chartreuse;
+}
+
+input[type="email"] {
+    background-color: green;
+}
