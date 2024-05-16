@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>CSS Animation</title>
+
+    <style>
+        .parent {
+            height: 100vh;
+            width: 100vw;
+            background-color: gray;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle {
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            color: white;
+            font-size: 2rem;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            transition: 2s;
+            /* transition-property: background-color 2s; */
+        }
+
+        .parent:hover .circle {
+            /* transform: rotate(90deg); */
+            /* transform: scale(1.5); */
+
+            /* rotate: 120deg;
+            width: 500px;
+            background-color: blue; */
+
+            animation: animate-circle 1s ease-in infinite;
+        }
+
+        @keyframes animate-circle {
+            0% {
+                transform: translateX(0%);
+            }
+
+            33% {
+                transform: translateY(100%);
+            }
+
+            66% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateY(100%);
+                background-color: red;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="circle">
+            =====>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
