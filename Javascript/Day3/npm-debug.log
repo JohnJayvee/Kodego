@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/jsiuagan/.nvm/versions/node/v4.9.1/bin/node',
+1 verbose cli   '/home/jsiuagan/.nvm/versions/node/v4.9.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'promp-sync' ]
+2 info using npm@2.15.11
+3 info using node@v4.9.1
+4 verbose install initial load of /home/jsiuagan/Documents/Kodego/Javascript/Day3/package.json
+5 warn package.json @ No description
+6 warn package.json @ No repository field.
+7 warn package.json @ No README data
+8 warn package.json @ No license field.
+9 verbose installManyTop reading scoped package data from /home/jsiuagan/Documents/Kodego/Javascript/Day3/node_modules/ansi-regex/package.json
+10 verbose installManyTop reading scoped package data from /home/jsiuagan/Documents/Kodego/Javascript/Day3/node_modules/prompt-sync/package.json
+11 verbose installManyTop reading scoped package data from /home/jsiuagan/Documents/Kodego/Javascript/Day3/node_modules/strip-ansi/package.json
+12 verbose readDependencies loading dependencies from /home/jsiuagan/Documents/Kodego/Javascript/Day3/package.json
+13 silly cache add args [ 'promp-sync', null ]
+14 verbose cache add spec promp-sync
+15 silly cache add parsed spec Result {
+15 silly cache add   raw: 'promp-sync',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'promp-sync',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: 'latest',
+15 silly cache add   type: 'tag' }
+16 silly addNamed promp-sync@latest
+17 verbose addNamed "latest" is being treated as a dist-tag for promp-sync
+18 info addNameTag [ 'promp-sync', 'latest' ]
+19 silly mapToRegistry name promp-sync
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'promp-sync',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   name: 'promp-sync',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/promp-sync
+24 verbose addNameTag registry:https://registry.npmjs.org/promp-sync not in flight; fetching
+25 verbose request uri https://registry.npmjs.org/promp-sync
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 8:08:23 PM
+28 verbose request id 4e17eed0e2eff7ac
+29 http request GET https://registry.npmjs.org/promp-sync
+30 http 404 https://registry.npmjs.org/promp-sync
+31 verbose headers { date: 'Fri, 24 May 2024 12:08:25 GMT',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'content-length': '21',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'cf-ray': '888d2bc66ebb2ebf-LAX',
+31 verbose headers   'access-control-allow-origin': '*',
+31 verbose headers   vary: 'Accept-Encoding',
+31 verbose headers   server: 'cloudflare' }
+32 silly get cb [ 404,
+32 silly get   { date: 'Fri, 24 May 2024 12:08:25 GMT',
+32 silly get     'content-type': 'application/json',
+32 silly get     'content-length': '21',
+32 silly get     connection: 'keep-alive',
+32 silly get     'cf-ray': '888d2bc66ebb2ebf-LAX',
+32 silly get     'access-control-allow-origin': '*',
+32 silly get     vary: 'Accept-Encoding',
+32 silly get     server: 'cloudflare' } ]
+33 verbose stack Error: Not found : promp-sync
+33 verbose stack     at makeError (/home/jsiuagan/.nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+33 verbose stack     at CachingRegistryClient.<anonymous> (/home/jsiuagan/.nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+33 verbose stack     at Request._callback (/home/jsiuagan/.nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+33 verbose stack     at Request.self.callback (/home/jsiuagan/.nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/request/request.js:187:22)
+33 verbose stack     at emitTwo (events.js:87:13)
+33 verbose stack     at Request.emit (events.js:172:7)
+33 verbose stack     at Request.<anonymous> (/home/jsiuagan/.nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+33 verbose stack     at emitOne (events.js:77:13)
+33 verbose stack     at Request.emit (events.js:169:7)
+33 verbose stack     at IncomingMessage.<anonymous> (/home/jsiuagan/.nvm/versions/node/v4.9.1/lib/node_modules/npm/node_modules/request/request.js:965:12)
+34 verbose statusCode 404
+35 verbose pkgid promp-sync
+36 verbose cwd /home/jsiuagan/Documents/Kodego/Javascript/Day3
+37 error Linux 6.9.0-1-MANJARO
+38 error argv "/home/jsiuagan/.nvm/versions/node/v4.9.1/bin/node" "/home/jsiuagan/.nvm/versions/node/v4.9.1/bin/npm" "install" "promp-sync"
+39 error node v4.9.1
+40 error npm  v2.15.11
+41 error code E404
+42 error 404 Not found : promp-sync
+42 error 404
+42 error 404 'promp-sync' is not in the npm registry.
+42 error 404 You should bug the author to publish it (or use the name yourself!)
+42 error 404
+42 error 404 Note that you can also install from a
+42 error 404 tarball, folder, http url, or git url.
+43 verbose exit [ 1, true ]
