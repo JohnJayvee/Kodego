@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Modal, Button, Form } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-// API URL
 const API_URL = 'http://src.test/activity.php';
 
-const App = () => {
+const Home = () => {
   const [users, setUsers] = useState([]);
   const [show, setShow] = useState(false);
   const [showDelete, setShowDelete] = useState(false);
@@ -161,4 +159,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;

@@ -1,0 +1,53 @@
+.card-img-top {
+  width: 100%;
+  /* Adjust to fit the width of the card */
+  height: auto;
+  /* Automatically adjust height to maintain aspect ratio */
+  max-height: 200px;
+  /* Set a maximum height to limit the size */
+  object-fit: contain;
+  /* Ensures the entire image is visible */
+  object-position: center;
+  /* Center the image within its container */
+}
+
+
+/* Optional: Adjust the size of the cards */
+.card {
+  margin-bottom: 20px;
+  /* width: 18rem; */
+  /* Add some spacing below each card */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  padding: 20px;
+  background-color: black;
+  /* Set background color to black */
+}
+
+.nav-link {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: white !important;
+  /* Set text color to white */
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #f0f0f0 !important;
+  /* Lighter white for active link */
+}
+
+.col-md-10 {
+  padding: 20px;
+}
